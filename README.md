@@ -1,61 +1,53 @@
-Webtech 2: web dev for hipsters
-=========
+Webtech advanced: notes
+===
+These are extra notes, links and references used to supplement a course I teach at Interactive Multimedia Design (http://www.weareimd.be) at Thomas More university college Mechelen.
 
+Students are encouraged to participate and optimize this list by sending a GIT pull request.
 
-Week 1
----------
+Social coding with Git
+---
 * social coding on Github
-* * http://guides.github.com/
-* * practice makes perfect
+* http://guides.github.com/
+* practice makes perfect
 
-Week 2
----------
+Advanced Javascript
+---
 * advanced javascript
-
-Week 3
----------
 * advanced javascript
 * bower ? https://www.openshift.com/blogs/day-1-bower-manage-your-client-side-dependencies
 
-Week 4
----------
+CSS Pre-processors
+---
 * sass
 * compass / bourbon 
 
-Week 5
----------
-* Backbone.js introduction door District01
-* workflow optimalisatie met grunt.js
+Backbone.js
+---
+* Backbone.js introduction
 
-Week 6
----------
-* meetup at the Gym OF building mobile apps with openData/JSON
+Grunt.js
+---
+* workflow optimization with Grunt
 
-Week 7
----------
+Building a prototype
+---
+* meetup at the Gym / building mobile apps with openData/JSON
+
+Angular.js
+---
 * gastspreker angular.js
 
-Week 8
----------
+Realtime apps with node.js and socket.io
+---
 * realtime apps with node.js and socket.io
 * projectorpong
-* Glenn Billiau over node.js + web sockets
 
-Week 9
----------
+Building a prototype
+---
 * building a prototype
 
-Week 10
----------
-* building a prototype
-
-Week 11
----------
-* presentations at the Gym
-
-Week 12
----------
-* presentations at the Gym
+Presentating your prototype
+---
 
 
 
