@@ -1,4 +1,4 @@
-# Webtech advanced: notes
+# Webtech 2: notes
 
 These are extra notes, links and references used to supplement a course I teach at Interactive Multimedia Design (http://www.weareimd.be) at Thomas More university college Mechelen.
 
@@ -15,7 +15,9 @@ Git is a version control system or VCS. Another famous version control system is
 
 Git is a distributed VCS while Subversion is a centralized VCS. When using a distributed VCS like Git, you commit your changes locally on your machine until your are ready to push your changes to an online repository. In a centralized VCS like Subversion, commits are done on a central server.
 
-The clear problem with systems like SVN is that when the online repository/server goes down, you can't commit your work until the server comes back online. With Git, that problem goes away as all commits are done locally first. Git also allows us to use multiple repositories and synchronize work between them if we wanted to. This created greater freedom when it comes to setting up development workflows.
+A possible issue with systems like SVN is that when the online repository/server goes down, you can't commit your work until the server comes back online. With Git, that problem goes away as all commits are done locally first. Git also allows us to use multiple repositories and synchronize work between them if we wanted to. This creates greater freedom when it comes to setting up development workflows.
+
+Without a good VCS it would be a lot harder to collaborate on projects and safely deploy them to staging and production servers. More on deployment later.
 
 ### git core concepts
 
@@ -27,11 +29,13 @@ The clear problem with systems like SVN is that when the online repository/serve
 
 #### fetch
 
-#### branching
+#### branch
 
 #### merge
 
 #### rebase
+
+#### production-ready master approach
 
 ### github.com
 
@@ -44,21 +48,25 @@ You may have noticed that this course is published on github in a file called RE
 * https://help.github.com/articles/github-flavored-markdown
 
 ### Useful links
-* social coding on Github
 * http://guides.github.com/
 * http://try.github.io/
+* http://www.sbf5.com/~cduan/technical/git/
 
 ## Advanced Javascript
 
 * advanced javascript
-* advanced javascript
+* syntax
+* closures
+* objects
+* prototypes
+* namespacing
 * bower
 * https://www.openshift.com/blogs/day-1-bower-manage-your-client-side-dependencies
 
 ## CSS Pre-processors
 
-* sass
-* compass / bourbon 
+* sass, less & stylus
+* compass & bourbon 
 
 ## Backbone.js
 
