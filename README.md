@@ -26,6 +26,7 @@ Without a good VCS it would be a lot harder to collaborate on projects and safel
 #### pull/push
 
 #### commit
+A commit should be a container for small and related changes. Fixing two bugs for example should produce two separate commits.
 
 #### fetch
 
