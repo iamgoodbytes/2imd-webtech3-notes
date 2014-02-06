@@ -75,6 +75,7 @@ You may have noticed that this course is published on github in a file called RE
 ### Useful links
 * http://guides.github.com/
 * http://try.github.io/
+* http://think-like-a-git.net/
 * http://www.sbf5.com/~cduan/technical/git/
 
 ## Advanced Javascript
