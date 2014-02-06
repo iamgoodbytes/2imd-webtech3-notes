@@ -39,6 +39,10 @@ Without a good VCS it would be a lot harder to collaborate on projects and safel
 
 ### github.com
 
+#### Forking
+
+https://help.github.com/articles/fork-a-repo
+
 #### pull requests
 
 ### What is markdown
