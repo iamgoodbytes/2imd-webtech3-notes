@@ -40,6 +40,10 @@ A commit should be a container for small and related changes. Fixing two bugs fo
 
 ### github.com
 
+#### Forking
+
+https://help.github.com/articles/fork-a-repo
+
 #### pull requests
 
 ### What is markdown
