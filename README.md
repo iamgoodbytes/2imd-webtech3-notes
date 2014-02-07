@@ -52,11 +52,14 @@ Once you are ready and you have tested your new feature, switch to your master b
 http://git-scm.com/book/ch3-1.html
 
 #### merge
-Merging takes one set of commits and tries to merge them with a branch of a repository.
+Put simply, merging takes two snapshots of your code (e.g. your *my-new-feature-x* branch and the *master* branch) and merges them together. 
 
-#### rebase
+If you have coded up a new feature in your *my-new-feature-x* branch and you want to make that available into your production ready application, you'll probably want to merge that branch with your master branch.
+
+There's a whole lot more to be said about merging. For details, check out [this link](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
 
 #### production-ready master approach
+
 
 ### github.com
 
