@@ -9,6 +9,16 @@ Reusing parts of this course is allowed and encouraged as long as the following 
 ## Licensing and attribution
 Course material created by [GoodBytes](GoodBytes) for professional bachelor degree [Interactive Multimedia Design](http://www.weareimd.be/) at [Thomas More](http://www.thomasmore.be/interactive-multimedia-design-imd) Mechelen in Belgium.
 
+
+## Markdown
+You may have noticed that this course is published on github in a file called README.md. By default, GitHub will display the contents of a README.md file on a repository's landing page. See the extension .md? That stands for [markdown](http://en.wikipedia.org/wiki/Markdown). 
+
+Markdown is a super simple way to add formatting to text, without having to use complex and irritating word processing software. It gives you a lot of freedom to do whatever you want with your documents, like converting it to HTML.
+
+* https://help.github.com/articles/markdown-basics
+* https://help.github.com/articles/github-flavored-markdown
+
+
 ## Social coding with Git
 ### What is git
 Git is a version control system or VCS. Another famous version control system is SVN or Subversion. A version control system makes it easier to collaborate on projects in teams, especially when a project consists of source code like PHP, HTML, .. 
@@ -71,16 +81,19 @@ Development and experimentation with new features is done in so called *feature 
 GitHub is not the only provider of Git hosting, but it's one of the most famous ones, if not the most famous. Another popular Git hosting provider is [Bitbucket](https://bitbucket.org). Bitbucket offers private repositories for free to small teams which can be interesting.
 
 #### Forking
+GitHub makes it easy to contribute to a project, even when it's not owned by your own team or company. If you want to contribute to a project, or start a new project based on another, you could *fork* a repository.
 
-https://help.github.com/articles/fork-a-repo
+*Forking* creates a copy of an existing repository on your GitHub account. To start working in that copy, you need to clone it to your local machine first. 
+
+Imagine that you fixed a nasty bug in your favourite open source project (Let's hope yo used a topic branch for that). Now it's time for your moment de gloire and contribute that fix back to the project you've been using and abusing for so long. To contribute your fix, create a [pull request](https://help.github.com/articles/using-pull-requests).
 
 #### pull requests
 
-### What is markdown
-You may have noticed that this course is published on github in a file called README.md. Pay attention to the extension .md which stands for markdown. 
+Pull requests notify users about changes you pushed to a repository. After you initiate a pull request on GitHub, your changes can be reviewed and people can comment on your work. Once approved, the owner of the forked repository can decide to merge your changes into the repository so that anyone can pull in your changes. 
 
-* https://help.github.com/articles/markdown-basics
-* https://help.github.com/articles/github-flavored-markdown
+Congratulations, you've just made the internet better! Why not send in a pull request to improve this course material while you're at it? See what I did there ;)?.
+
+Make sure to read the following guide in detail if you want to start contributing on a project: https://help.github.com/articles/fork-a-repo
 
 ### Useful links
 * http://guides.github.com/
