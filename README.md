@@ -59,9 +59,16 @@ If you have coded up a new feature in your *my-new-feature-x* branch and you wan
 There's a whole lot more to be said about merging. For details, check out [this link](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
 
 #### production-ready master approach
+The production-ready master approach is a popular approach when developming with git. 
 
+With this approach, we guarantee that any commit we make in the *master* branch is stable, production-ready code. That means that at any time of the day, it is safe to deploy the master branch to our production server.
+
+Development and experimentation with new features is done in so called *feature branches*.
 
 ### github.com
+[GitHub.com](GitHub.com) is a commercial business that provides a hosting platform for Git repositories. It's especially known for hosting open source projects (which is free on GitHub) and for facilitating social coding with others. Private repositories aren't free.
+
+GitHub is not the only provider of Git hosting, but it's one of the most famous ones, if not the most famous. Another popular Git hosting provider is [Bitbucket](https://bitbucket.org). Bitbucket offers private repositories for free to small teams which can be interesting.
 
 #### Forking
 
