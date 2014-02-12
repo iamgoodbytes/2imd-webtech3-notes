@@ -101,6 +101,7 @@ Make sure to read the following guide in detail if you want to start contributin
 * http://think-like-a-git.net/
 * http://dotnet.dzone.com/articles/intro-git
 * http://www.sbf5.com/~cduan/technical/git/
+* http://www-cs-students.stanford.edu/~blynn/gitmagic/index.html
 
 ## Advanced Javascript
 
