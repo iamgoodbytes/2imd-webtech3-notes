@@ -15,6 +15,7 @@ You may have noticed that this course is published on github in a file called RE
 
 Markdown is a super simple way to add formatting to text, without having to use complex and irritating word processing software. It gives you a lot of freedom to do whatever you want with your documents, like converting it to HTML.
 
+* http://daringfireball.net/projects/markdown/
 * https://help.github.com/articles/markdown-basics
 * https://help.github.com/articles/github-flavored-markdown
 
