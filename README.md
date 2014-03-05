@@ -105,14 +105,17 @@ Make sure to read the following guide in detail if you want to start contributin
 * http://www-cs-students.stanford.edu/~blynn/gitmagic/index.html
 
 ## Advanced Javascript
-
-* advanced javascript
 * syntax
 * prototypes
+* event handling
+* objects
+* inheritance
 * namespacing
 * closures
-* objects
+* module pattern
 * bower
+
+### Useful links
 * https://www.openshift.com/blogs/day-1-bower-manage-your-client-side-dependencies
 
 ## Animating with CSS
