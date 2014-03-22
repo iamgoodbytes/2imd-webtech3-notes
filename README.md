@@ -163,8 +163,26 @@ Make sure to read the following guide in detail if you want to start contributin
 
 ## Realtime apps with node.js and socket.io
 
-* realtime apps with node.js and socket.io
-* projectorpong
+* what is node.js
+* non-blocking IO
+* synchronous vs. asynchronous
+* single-threaded
+* typical use-cases
+* web sockets
+* sockets.io and faye
+
+### Building a simple node.js app
+* install node.js globally
+* install express globally
+* generate an express app
+* the package.json file
+* installing dependencies with npm
+* jade
+* the MVC structure of an express app
+* adding Faye to the mix
+* subscribing to and publishing events with Faye
+* nodemon
+ 
 
 ## Building a prototype
 
