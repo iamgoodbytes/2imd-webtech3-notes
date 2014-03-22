@@ -170,7 +170,7 @@ Make sure to read the following guide in detail if you want to start contributin
 
 * building a prototype
 
-## Presentating your prototype
+## Presenting your prototype
 
 ## License and attribution
 
