@@ -190,17 +190,17 @@ Both of these are types of websockets which can be installed with node.js packag
 Download Node.js from the website: http://nodejs.org/. Start the setup and follow the instructions, make sure you install npm with it (it's in the default options).
 
 ####install express globally
-To install express globally, you have to open the command prompt and type the command: npm install express -g.
+To install express globally, you have to open the command prompt and type the command: `npm install express -g`.
 
 ####generate an express app
-The first thing you have to do is creating a directory somewhere on the machine using the following command: mkdir hello-world. Hello-world can be any name you want. Then use the command: npm install. This will install all the dependencies necessary to run your Express app for the first time.
+The first thing you have to do is creating a directory somewhere on the machine using the following command: `mkdir hello-world`. Hello-world can be any name you want. Then use the command: `npm install`. This will install all the dependencies necessary to run your Express app for the first time.
 
 ####the package.json file
 The package.json file will contain all of the data which will be necessary to run your application. For example, it contains the name of the application and it's dependencies in the current version(like Express, Faye, MongoDB, ...). 
 
 ####installing dependencies with npm
 Npm stands for node package manager and is used to install every dependency you need for your application. Basically just add the name of the dependency to your package.json file and use the install command.
-Every command starts with: npm install (followed by the name of the dependency to install it locally) or npm install -g (followed by the name of the dependency to install it globally).
+Every command starts with: `npm install` (followed by the name of the dependency to install it locally) or `npm install -g` (followed by the name of the dependency to install it globally).
 
 ####jade
 Jade is a node.js template engine and is the default template engine when you use Express. It replaces basic html by using the same tags as html but without end tags. A thing to note is that you can use tabs OR spaces to indent, not both in one file.
@@ -253,7 +253,8 @@ Now that we have Faye running on the connection we already established, we can p
 	});```
    
 ####nodemon
- 
+Nodemon is a utility that will look for any changes in the source code of your application and will refresh the app whenever something changes. You can also restart your application yourself by just typing `rs` in the command prompt.
+You can install nodemon by using the command: `npm install -g nodemon`
 
 ## Building a prototype
 
