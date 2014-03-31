@@ -163,55 +163,57 @@ Make sure to read the following guide in detail if you want to start contributin
 
 ## Realtime apps with node.js and socket.io
 
-* what is node.js
+####what is node.js
 Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
 
-* non-blocking IO
+####non-blocking IO
 Also known as asynchronous IO is short for the non-blocking input/output of a system. It basically means that while an input or output is being processed, other processing still contintues before transmission is finished.
 
-* synchronous vs. asynchronous
+####synchronous vs. asynchronous
 Non-blocking IO is the contrary of synchronous IO, in which a system has to finish processing the current input/output before being able to process the next. This means that the progress of a program would be blocked when communication is in progress.
-* single-threaded
+
+####single-threaded
 Single-threaded means that only one command of code can be executed at a time, and it has to finish each given task in sequence before being able to start another.
 
-* typical use-cases
+####typical use-cases
 It is most commonly used for real-time applications with push capability. For example: a system to exchange data fast like a chat system, massively multiplayer online games, ...
 
-* web sockets
+####web sockets
 Node.js and Websockets are the perfect combination to write very fast, lag free applications which can send data to a huge number of clients. 
 
-* sockets.io and faye
+####sockets.io and faye
 Both of these are types of websockets which can be installed with node.js packages. The main difference is that Faye enforces a publish-subscriber pattern/protocol of communication. In Socket.IO, you don’t have to, so it’s a simpler abstraction. Faye could be built on top of Socket.IO.
 
 ### Building a simple node.js app
 
-* install node.js globally
+####install node.js globally
 Download Node.js from the website: http://nodejs.org/. Start the setup and follow the instructions, make sure you install npm with it (it's in the default options).
 
-* install express globally
+####install express globally
 To install express globally, you have to open the command prompt and type the command: npm install express -g.
 
-* generate an express app
+####generate an express app
 The first thing you have to do is creating a directory somewhere on the machine using the following command: mkdir hello-world. Hello-world can be any name you want. Then use the command: npm install. This will install all the dependencies necessary to run your Express app for the first time.
 
-* the package.json file
+####the package.json file
 The package.json file will contain all of the data which will be necessary to run your application. For example, it contains the name of the application and it's dependencies in the current version(like Express, Faye, MongoDB, ...). 
 
-* installing dependencies with npm
+####installing dependencies with npm
 Npm stands for node package manager and is used to install every dependency you need for your application. Basically just add the name of the dependency to your package.json file and use the install command.
 Every command starts with: npm install (followed by the name of the dependency to install it locally) or npm install -g (followed by the name of the dependency to install it globally).
 
-* jade
+####jade
 Jade is a node.js template engine and is the default template engine when you use Express. It replaces basic html by using the same tags as html but without end tags. A thing to note is that you can use tabs OR spaces to indent, not both in one file.
 
-* the MVC structure of an express app
+####the MVC structure of an express app
 The MVC structure consists out of three layers. To state it simply:
-- You start out on the app.js layer which was created by the Express app which contains all the basics to establish a port connection and basic data for your routes.
-- Immediately when you start the app, you get the route you want from the app.js file and jump to the routes folder where you pick up the right path.
-- The routes folder then renders the right jade template file which is the presentation layer the user will see.
-* adding Faye to the mix
-* subscribing to and publishing events with Faye
-* nodemon
+* You start out on the app.js layer which was created by the Express app which contains all the basics to establish a port connection and basic data for your routes.
+* Immediately when you start the app, you get the route you want from the app.js file and jump to the routes folder where you pick up the right path.
+* The routes folder then renders the right jade template file which is the presentation layer the user will see.
+
+####adding Faye to the mix
+####subscribing to and publishing events with Faye
+####nodemon
  
 
 ## Building a prototype
