@@ -232,9 +232,9 @@ Faye is a type of websocket and it is used to easily create an application to pu
 Now that we have Faye running on the connection we already established, we can publish and subscribe to messages from within the application. 
 * First you'll have to open up the layout.jade file and add the latest JQuery file and Faye file links to your head (the Faye map and files will be created at runtime so you don't have to worry about them)
    
-	```script(src="http://code.jquery.com/jquery-latest.min.js")
-	script(src="/faye/browser/faye-browser.js")
-	script(src="/faye/client.js")
+	`script(src="http://code.jquery.com/jquery-latest.min.js")`
+	`script(src="/faye/browser/faye-browser.js")`
+	`script(src="/faye/client.js")`
    
 * Next, you can start out by creating a Faye client in any jade file you desire by adding this code. 
 
