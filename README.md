@@ -234,7 +234,7 @@ Now that we have Faye running on the connection we already established, we can p
    
 	```script(src="http://code.jquery.com/jquery-latest.min.js")
 	script(src="/faye/browser/faye-browser.js")
-	script(src="/faye/client.js")```
+	script(src="/faye/client.js")
    
 * Next, you can start out by creating a Faye client in any jade file you desire by adding this code. 
 
