@@ -212,7 +212,30 @@ The MVC structure consists out of three layers. To state it simply:
 * The routes folder then renders the right jade template file which is the presentation layer the user will see.
 
 ####adding Faye to the mix
+Faye is a type of websocket and it is used to easily create an application to publish and subscribe to messages. To add it to your project: add it to your package.json file and install it through npm. Then you have to initialize the Faye & bayeux client in the app.js file.
+* The first step to do this is by requiring faye in your variable list. => var faye = require('faye');
+* Then we create a variable bayeux in which we mount it to the path '/faye' to connect and talk to the server and a timeout to give a maximum time to hold a connection open before returning a response. 
+=>var bayeux = new faye.NodeAdapter({
+  mount:    '/faye',
+  timeout:  45
+});
+* Next, we can attach bayeux to an existing server by adding this code. => bayeux.attach(server);
+
 ####subscribing to and publishing events with Faye
+Now that we have Faye running on the connection we already established, we can publish and subscribe to messages from within the application. 
+* First you'll have to open up the layout.jade file and add the latest JQuery file and Faye file links to your head (the Faye map and files will be created at runtime so you don't have to worry about them)
+=> script(src='http://code.jquery.com/jquery-latest.min.js')
+   script(src='/faye/browser/faye-browser.js')
+   script(src='/faye/client.js')
+* Next, you can start out by creating a Faye client in any jade file you desire by adding this code. => var client = new Faye.Client('http://localhost:8000/');
+* After this, you can subscribe to a channel to get messages published to a certain path (in this case the path name is /messages)
+=> client.subscribe('/messages', function(message) {
+    alert('Got a message: ' + message.text);
+   });
+* As a last step, you still have to publish messages to that given path and we do this by publishing something, for example:
+=> client.publish('/messages', {
+    text: 'Hello world'
+   });
 ####nodemon
  
 
