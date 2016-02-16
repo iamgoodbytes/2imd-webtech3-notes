@@ -148,9 +148,6 @@ Make sure to read the following guide in detail if you want to start contributin
 
 * Backbone.js introduction
 
-## Grunt.js
-
-* workflow optimization with Grunt
 
 ## Building a prototype
 
