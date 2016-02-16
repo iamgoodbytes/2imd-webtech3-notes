@@ -144,14 +144,6 @@ Make sure to read the following guide in detail if you want to start contributin
 * sass, less & stylus
 * compass & bourbon 
 
-## Backbone.js
-
-* Backbone.js introduction
-
-## Grunt.js
-
-* workflow optimization with Grunt
-
 ## Building a prototype
 
 * meetup at the Gym / building mobile apps with openData/JSON
