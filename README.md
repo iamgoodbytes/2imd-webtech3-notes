@@ -117,28 +117,6 @@ Make sure to read the following guide in detail if you want to start contributin
 ### Useful links
 * https://www.openshift.com/blogs/day-1-bower-manage-your-client-side-dependencies
 
-## Animating with CSS
-
-### Transitions
-
-### Transforms
-
-#### 2D Transforms
-* translate()
-* rotate()
-* scale()
-* skew()
-* matrix()
-
-#### 3D Transforms
-* rotateX
-* rotateY
-* perspective
-
-### Animations
-
-
-
 ## CSS Pre-processors
 
 * sass, less & stylus
