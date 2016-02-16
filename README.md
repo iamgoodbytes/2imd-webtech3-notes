@@ -19,7 +19,6 @@ Markdown is a super simple way to add formatting to text, without having to use 
 * https://help.github.com/articles/markdown-basics
 * https://help.github.com/articles/github-flavored-markdown
 
-
 ## Social coding with Git
 ### What is git
 Git is a version control system or VCS. Another famous version control system is SVN or Subversion. A version control system makes it easier to collaborate on projects in teams, especially when a project consists of source code like PHP, HTML, .. 
