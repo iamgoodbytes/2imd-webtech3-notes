@@ -122,10 +122,6 @@ Make sure to read the following guide in detail if you want to start contributin
 * sass, less & stylus
 * compass & bourbon 
 
-## Backbone.js
-
-* Backbone.js introduction
-
 
 ## Building a prototype
 
