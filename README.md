@@ -101,7 +101,6 @@ Make sure to read the following guide in detail if you want to start contributin
 * https://www.sourcetreeapp.com/
 * https://tortoisegit.org/
 
-
 ### Useful links
 * http://guides.github.com/
 * http://try.github.io/
