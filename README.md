@@ -4,14 +4,14 @@ These are extra notes, links and references used to supplement a course I teach 
 
 Students and readers are encouraged to participate and optimize these course materials by sending a GIT pull request.
 
-Reusing parts of this course is allowed and encouraged as long as the following attribution and links are kept intact: 
+Reusing parts of this course is allowed and encouraged as long as the following attribution and links are kept intact:
 
 ## Licensing and attribution
 Course material created by [GoodBytes](GoodBytes) for professional bachelor degree [Interactive Multimedia Design](http://www.weareimd.be/) at [Thomas More](http://www.thomasmore.be/interactive-multimedia-design-imd) Mechelen in Belgium.
 
 
 ## Markdown
-You may have noticed that this course is published on github in a file called README.md. By default, GitHub will display the contents of a README.md file on a repository's landing page. See the extension .md? That stands for [markdown](http://en.wikipedia.org/wiki/Markdown). 
+You may have noticed that this course is published on github in a file called README.md. By default, GitHub will display the contents of a README.md file on a repository's landing page. See the extension .md? That stands for [markdown](http://en.wikipedia.org/wiki/Markdown).
 
 Markdown is a super simple way to add formatting to text, without having to use complex and irritating word processing software. It gives you a lot of freedom to do whatever you want with your documents, like converting it to HTML.
 
@@ -21,7 +21,7 @@ Markdown is a super simple way to add formatting to text, without having to use 
 
 ## Social coding with Git
 ### What is git
-Git is a version control system or VCS. Another famous version control system is SVN or Subversion. A version control system makes it easier to collaborate on projects in teams, especially when a project consists of source code like PHP, HTML, .. 
+Git is a version control system or VCS. Another famous version control system is SVN or Subversion. A version control system makes it easier to collaborate on projects in teams, especially when a project consists of source code like PHP, HTML, ..
 
 Git is a distributed VCS while Subversion is a centralized VCS. When using a distributed VCS like Git, you commit your changes locally on your machine until your are ready to push your changes to an online repository. In a centralized VCS like Subversion, commits are done on a central server.
 
@@ -44,32 +44,32 @@ Similar to the fetch command, the pull command fetches the latest version of the
 Pushing to a repository sends all your committed files to a repository, ready to be fetched or pulled by others.
 
 #### commit
-Committing files tells git that you have changes you want to store or submit to your repository. 
+Committing files tells git that you have changes you want to store or submit to your repository.
 
-A commit should be a container for small and related changes. Fixing two bugs for example should produce two separate commits. 
+A commit should be a container for small and related changes. Fixing two bugs for example should produce two separate commits.
 
 #### branch
 Let's skip the technical details for a moment and talk about why you should be using branches. When you clone or create a git repository you typically get started with a main branch to work on called *master*. A popular convention is to use this master branch as a clean and stable copy of your software. At any point in time, a team member should be able to take this master branch and deploy it to a production server for the whole world to see.
 
-Imagine you're trying out a new feature on your website or app. You could decide to just start coding in your master branch, no harm done right? Here's the problem: what if, in the middle of completing your new feature, a new bug pops up that requires immediate action. 
+Imagine you're trying out a new feature on your website or app. You could decide to just start coding in your master branch, no harm done right? Here's the problem: what if, in the middle of completing your new feature, a new bug pops up that requires immediate action.
 
 You need to fix the bug in the master branch right away and deploy it to your production server but you can't. You can't because that would also deploy your half-assed feature to your production server and the whole world would see that.
 
-Enter branches. A branch creates a new history of commits that won't interfere with e.g. your master branch. Now you can start experimenting in your newly created branch called *my-new-feature-x* without having to worry about the stability of the master branch. 
+Enter branches. A branch creates a new history of commits that won't interfere with e.g. your master branch. Now you can start experimenting in your newly created branch called *my-new-feature-x* without having to worry about the stability of the master branch.
 
 Once you are ready and you have tested your new feature, switch to your master branch, merge the code from your *my-new-feature-x* branch and when you deploy your master branch again, your users will be delighted to see your new and finished feature pop up on the website.
 
 http://git-scm.com/book/ch3-1.html
 
 #### merge
-Put simply, merging takes two snapshots of your code (e.g. your *my-new-feature-x* branch and the *master* branch) and merges them together. 
+Put simply, merging takes two snapshots of your code (e.g. your *my-new-feature-x* branch and the *master* branch) and merges them together.
 
 If you have coded up a new feature in your *my-new-feature-x* branch and you want to make that available into your production ready application, you'll probably want to merge that branch with your master branch.
 
 There's a whole lot more to be said about merging. For details, check out [this link](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
 
 #### production-ready master approach
-The production-ready master approach is a popular approach when developming with git. 
+The production-ready master approach is a popular approach when developming with git.
 
 With this approach, we guarantee that any commit we make in the *master* branch is stable, production-ready code. That means that at any time of the day, it is safe to deploy the master branch to our production server.
 
@@ -83,17 +83,24 @@ GitHub is not the only provider of Git hosting, but it's one of the most famous 
 #### Forking
 GitHub makes it easy to contribute to a project, even when it's not owned by your own team or company. If you want to contribute to a project, or start a new project based on another, you could *fork* a repository.
 
-*Forking* creates a copy of an existing repository on your GitHub account. To start working in that copy, you need to clone it to your local machine first. 
+*Forking* creates a copy of an existing repository on your GitHub account. To start working in that copy, you need to clone it to your local machine first.
 
 Imagine that you fixed a nasty bug in your favourite open source project (Let's hope yo used a topic branch for that). Now it's time for your moment de gloire and contribute that fix back to the project you've been using and abusing for so long. To contribute your fix, create a [pull request](https://help.github.com/articles/using-pull-requests).
 
 #### pull requests
 
-Pull requests notify users about changes you pushed to a repository. After you initiate a pull request on GitHub, your changes can be reviewed and people can comment on your work. Once approved, the owner of the forked repository can decide to merge your changes into the repository so that anyone can pull in your changes. 
+Pull requests notify users about changes you pushed to a repository. After you initiate a pull request on GitHub, your changes can be reviewed and people can comment on your work. Once approved, the owner of the forked repository can decide to merge your changes into the repository so that anyone can pull in your changes.
 
 Congratulations, you've just made the internet better! Why not send in a pull request to improve this course material while you're at it? See what I did there ;)?.
 
 Make sure to read the following guide in detail if you want to start contributing on a project: https://help.github.com/articles/fork-a-repo
+
+### Gui's for git(hub)
+* https://git-scm.com/download/gui/linux
+* https://desktop.github.com/
+* https://www.sourcetreeapp.com/
+* https://tortoisegit.org/
+
 
 ### Useful links
 * http://guides.github.com/
@@ -120,7 +127,7 @@ Make sure to read the following guide in detail if you want to start contributin
 ## CSS Pre-processors
 
 * sass, less & stylus
-* compass & bourbon 
+* compass & bourbon
 
 
 ## Building a prototype
@@ -149,7 +156,7 @@ Single-threaded means that only one command of code can be executed at a time, a
 It is most commonly used for real-time applications with push capability. For example: a system to exchange data fast like a chat system, massively multiplayer online games, ...
 
 ####web sockets
-Node.js and Websockets are the perfect combination to write very fast, lag free applications which can send data to a huge number of clients. 
+Node.js and Websockets are the perfect combination to write very fast, lag free applications which can send data to a huge number of clients.
 
 ####sockets.io and faye
 Both of these are types of websockets which can be installed with node.js packages. The main difference is that Faye enforces a publish-subscriber pattern/protocol of communication. In Socket.IO, you don’t have to, so it’s a simpler abstraction. Faye could be built on top of Socket.IO.
@@ -166,7 +173,7 @@ To install express globally, you have to open the command prompt and type the co
 The first thing you have to do is creating a directory somewhere on the machine using the following command: `mkdir hello-world`. Hello-world can be any name you want. Then use the command: `npm install`. This will install all the dependencies necessary to run your Express app for the first time.
 
 ####the package.json file
-The package.json file will contain all of the data which will be necessary to run your application. For example, it contains the name of the application and it's dependencies in the current version(like Express, Faye, MongoDB, ...). 
+The package.json file will contain all of the data which will be necessary to run your application. For example, it contains the name of the application and it's dependencies in the current version(like Express, Faye, MongoDB, ...).
 
 ####installing dependencies with npm
 Npm stands for node package manager and is used to install every dependency you need for your application. Basically just add the name of the dependency to your package.json file and use the install command.
@@ -183,32 +190,32 @@ The MVC structure consists out of three layers. To state it simply:
 
 ####adding Faye to the mix
 Faye is a type of websocket and it is used to easily create an application to publish and subscribe to messages. To add it to your project: add it to your package.json file and install it through npm. Then you have to initialize the Faye & bayeux client in the app.js file.
-* The first step to do this is by requiring faye in your variable list. 
+* The first step to do this is by requiring faye in your variable list.
 
 	`var faye = require("faye");`
 
-* Then we create a variable bayeux in which we mount it to the path "/faye" to connect and talk to the server and a timeout to give a maximum time to hold a connection open before returning a response. 
+* Then we create a variable bayeux in which we mount it to the path "/faye" to connect and talk to the server and a timeout to give a maximum time to hold a connection open before returning a response.
 
 	```var bayeux = new faye.NodeAdapter({
 	  mount:    "/faye",
 	  timeout:  45
 	});```
 
-* Next, we can attach bayeux to an existing server by adding this code. 
+* Next, we can attach bayeux to an existing server by adding this code.
 
 	`bayeux.attach(server);`
 
 ####subscribing to and publishing events with Faye
-Now that we have Faye running on the connection we already established, we can publish and subscribe to messages from within the application. 
+Now that we have Faye running on the connection we already established, we can publish and subscribe to messages from within the application.
 * First you'll have to open up the layout.jade file and add the latest JQuery file and Faye file links to your head (the Faye map and files will be created at runtime so you don't have to worry about them)
-   
+
 	`script(src="http://code.jquery.com/jquery-latest.min.js")`
-	
+
 	`script(src="/faye/browser/faye-browser.js")`
-	
+
 	`script(src="/faye/client.js")`
-   
-* Next, you can start out by creating a Faye client in any jade file you desire by adding this code. 
+
+* Next, you can start out by creating a Faye client in any jade file you desire by adding this code.
 
 	`var client = new Faye.Client("http://localhost:8000/");`
 
@@ -217,13 +224,13 @@ Now that we have Faye running on the connection we already established, we can p
 	```client.subscribe("/messages", function(message) {
     	alert("Got a message: " + message.text);
    	});```
-   
+
 * As a last step, you still have to publish messages to that given path and we do this by publishing something, for example:
 
 	```client.publish("/messages", {
 		text: "Hello world"
 	});```
-   
+
 ####nodemon
 Nodemon is a utility that will look for any changes in the source code of your application and will refresh the app whenever something changes. You can also restart your application yourself by just typing `rs` in the command prompt.
 You can install nodemon by using the command: `npm install -g nodemon`
@@ -235,9 +242,3 @@ You can install nodemon by using the command: `npm install -g nodemon`
 ## Presenting your prototype
 
 ## License and attribution
-
-
-
-
-
-
