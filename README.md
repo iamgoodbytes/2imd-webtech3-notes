@@ -234,6 +234,10 @@ Now that we have Faye running on the connection we already established, we can p
 Nodemon is a utility that will look for any changes in the source code of your application and will refresh the app whenever something changes. You can also restart your application yourself by just typing `rs` in the command prompt.
 You can install nodemon by using the command: `npm install -g nodemon`
 
+While working with non-JS files Nodemon will not always detect changes. Therefore the server may not always restart. If you're updating your PUG files for example you will need to use the `rs` command as explained above to see your changes.
+
+Alternatively, it's also possible to extend the basic Nodemon command, adding extra filetypes Nodemon needs to watch. For example, this can be done by typing in for example `nodemon -e .pug,.js` which will effectively add .pug files to the Nodemon session.
+
 ## Building a prototype
 
 * building a prototype
