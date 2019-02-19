@@ -68,6 +68,16 @@ If you have coded up a new feature in your *my-new-feature-x* branch and you wan
 
 There's a whole lot more to be said about merging. For details, check out [this link](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
 
+#### stash
+
+While you're working in different git branches, you may want to switch between branches before your current work is done. Checking out between branches without committing your work will, unfortunately, bring the changes from one branch to another. This can leave your projects in quite a messy state. To counter this, git has introduced the stashing tool.
+
+In its most basic form, it's possible to simply run `git stash` on your terminal. This will visually remove any changes or new files you've made since the last commits. After your local changes have been stashed, it's possible to freely switch between branches again, without bringing your changes over. To see which stashes have been created in your current branch, you can run the `git stash list` command.
+
+If you want to bring back your stash at a later point of development you can simply run the `git stash apply` command. This will return all of your previous changes and/or new files so you can finish your work.
+
+To learn more about stashes, you can check out [this link](https://git-scm.com/book/en/v1/Git-Tools-Stashing)
+
 #### production-ready master approach
 The production-ready master approach is a popular approach when developming with git.
 
@@ -169,6 +179,10 @@ The MVC structure consists out of three layers. To state it simply:
 #### nodemon
 Nodemon is a utility that will look for any changes in the source code of your application and will refresh the app whenever something changes. You can also restart your application yourself by just typing `rs` in the command prompt.
 You can install nodemon by using the command: `npm install -g nodemon`
+
+While working with non-JS files Nodemon will not always detect changes. Therefore the server may not always restart. If you're updating your PUG files for example you will need to use the `rs` command as explained above to see your changes.
+
+Alternatively, it's also possible to extend the basic Nodemon command, adding extra filetypes Nodemon needs to watch. For example, this can be done by typing in for example `nodemon -e .pug,.js` which will effectively add .pug files to the Nodemon session.
 
 ## Building a prototype
 
