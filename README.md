@@ -121,7 +121,8 @@ Make sure to read the following guide in detail if you want to start contributin
 
 ## CSS Pre-processors
 
-* sass
+* [SASS](https://sass-lang.com/)
+
 
 ## Building a prototype
 
